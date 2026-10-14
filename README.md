@@ -1,6 +1,6 @@
 # Iascaire
 <img width="1578" height="885" alt="Image" src="https://github.com/user-attachments/assets/862614e1-8742-41fe-83a0-d84e7a9973df" />
-*A psychological horror game set aboard a lonely fishing vessel, somewhere in the cold, fog-covered sea.*
+A psychological horror game set aboard a lonely fishing vessel, somewhere in the cold, fog-covered sea.
 
 ## About the Game
 
