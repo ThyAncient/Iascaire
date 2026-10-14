@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3898202757920227695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 243884624513585606}
+  - component: {fileID: 7295663671844323653}
+  - component: {fileID: 715067253666176250}
+  - component: {fileID: 2769976562938537738}
+  - component: {fileID: 8835134019712012311}
+  - component: {fileID: -6291628756976259727}
+  m_Layer: 0
+  m_Name: mush
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &243884624513585606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898202757920227695}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.09229786, y: -0.7010572, z: 0.09229579, w: 0.7010574}
+  m_LocalPosition: {x: 5.0596, y: 4.9196, z: 60.816}
+  m_LocalScale: {x: 2.4995985, y: 2.4995985, z: 2.4995985}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 15}
+--- !u!33 &7295663671844323653
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898202757920227695}
+  m_Mesh: {fileID: -5495902117074765545, guid: 744ada61b3f77d845b815c4d28dfd9f9, type: 3}
+--- !u!23 &715067253666176250
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898202757920227695}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -876546973899608171, guid: 744ada61b3f77d845b815c4d28dfd9f9, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2769976562938537738
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898202757920227695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.04415511, y: 0.06616457, z: 0.023782477}
+  m_Center: {x: -0.00038834228, y: 0.007635718, z: -0.0017983373}
+--- !u!114 &8835134019712012311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898202757920227695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f264aa0c356ddf4992dd85589a6652a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  fishPrefab: {fileID: 0}
+  mushPrefab: {fileID: 3898202757920227695}
+  fishPlacementOffset: {x: 0, y: 0, z: 0}
+  mushPlacementOffset: {x: 0, y: 0, z: 0}
+  fishRotationOffset: {x: 0, y: 0, z: 0}
+  fishScaleOffsetX: 0
+  fishScaleOffsetY: 0
+  fishScaleOffsetZ: 0
+  mushRotationOffset: {x: 0, y: 0, z: 0}
+  mushScaleOffsetX: 0
+  mushScaleOffsetY: 0
+  mushScaleOffsetZ: 0
+  mushHandRotationOffset: {x: -69, y: -95, z: 80}
+  mushHandScaleOffset: {x: 1, y: 1, z: -0.5}
+  holdTime: 1
+  maxMush: 5
+  currentMush: 0
+  mushFillCylinder: {fileID: 0}
+  fillHeight: 1
+  fillStartY: 0
+  parentTable: {fileID: 0}
+--- !u!114 &-6291628756976259727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898202757920227695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f264aa0c356ddf4992dd85589a6652a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  fishPrefab: {fileID: 0}
+  mushPrefab: {fileID: 3898202757920227695}
+  fishPlacementOffset: {x: 0, y: 0, z: 0}
+  mushPlacementOffset: {x: 0, y: 0, z: 0}
+  fishRotationOffset: {x: 0, y: 0, z: 0}
+  fishScaleOffsetX: 0
+  fishScaleOffsetY: 0
+  fishScaleOffsetZ: 0
+  mushRotationOffset: {x: 0, y: 0, z: 0}
+  mushScaleOffsetX: 0
+  mushScaleOffsetY: 0
+  mushScaleOffsetZ: 0
+  mushHandRotationOffset: {x: -69, y: -95, z: 80}
+  mushHandScaleOffset: {x: 1, y: 1, z: -0.5}
+  holdTime: 1
+  maxMush: 5
+  currentMush: 0
+  mushFillCylinder: {fileID: 0}
+  fillHeight: 1
+  fillStartY: 0
+  parentTable: {fileID: 0}
