@@ -1,5 +1,5 @@
 # Iascaire
-[Gameplay Screenshot](image.png)
+<img width="1578" height="885" alt="Image" src="https://github.com/user-attachments/assets/862614e1-8742-41fe-83a0-d84e7a9973df" />
 *A psychological horror game set aboard a lonely fishing vessel, somewhere in the cold, fog-covered sea.*
 
 ## About the Game
@@ -51,7 +51,6 @@ Tasks were assigned to team members and organized by the project manager to keep
 The project uses a branching workflow to separate development from release-ready builds.
 
 - **`main`** — Contains the stable, release-ready version of the project.
-- **Development branches** — Used for implementing and testing features before merging them into `main`, if applicable.
 
 ## Project Status
 
